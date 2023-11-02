@@ -1,16 +1,63 @@
+body  {
+    font-family: 'Urbanist', sans-serif;
+    color: white;
+    background-color: black;
+}
 
+.navigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
 
 .sectionheader {
     text-align: center;
+    
 }
 
 .sectionheader2 {
     text-align: center;
+    margin-bottom: 200px;
 }
 
 .benefitsleft {
+    display: flex;
+    flex-direction: row;
     text-align: left;
-    margin-left: 50px;
+    margin-left: 500px;
+    margin-right: 500px;
+    justify-content: space-around;
 }
 
+.benefitsright {
+    display: flex;
+    flex-direction: row-reverse;
+    text-align: left;
+    margin-left: 450px;
+    margin-right: 365px;
+    justify-content: space-around;
+    padding-top: 100px;
 
+}
+
+.benefitsbox {
+    background-color: #181924;
+    border-radius: 33px;
+    padding: 32px;
+
+
+}
+
+.mainheader {
+    font-size: 80px;
+    background: -webkit-linear-gradient(90deg, rgba(78,75,228,1) 24%, rgba(232,98,254,1) 74%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+}
+
+.mainheader2 {
+    font-size: 24px;
+    color: #FF3BFF;
+}
