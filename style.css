@@ -92,10 +92,6 @@ body  {
     padding: 50px;
 }
 
-.column2 {
-    display: flex;
-    align-items: flex-start;
-}
 
 .plans {
     display: flex;
@@ -107,9 +103,79 @@ body  {
 .plan2 {
     background-color: #181924;
     border-radius: 33px;
-    padding-left: 32px;
-    padding-right: 32px;
+    padding-left: 75px;
+    padding-right: 75px;
     padding-top: 48px;
     padding-bottom: 48px;
     justify-content: center;
+}
+
+.benefits {
+    display: flex;
+    flex-direction: column;
+}
+
+.button {
+    background-color: #4F4CE5; 
+    border: none;
+    color: white;
+    padding: 16px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 50px;
+}
+
+.startup {
+    font-size: 40px;
+    background: -webkit-linear-gradient(90deg, rgba(78,75,228,1) 24%, rgba(232,98,254,1) 74%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+}
+
+.plan3 {
+    font-size: 24px;
+    text-align: center;
+}
+
+.button2 {
+    font-size: 12px;
+    background-color: #4F4CE5; 
+    border: none;
+    color: white;
+    padding: 16px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 50px;
+}
+
+.testimonial2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.Testimonial3 {
+    background-color: #181924;
+    border-radius: 30px;
+    padding: 32px;
+}
+
+.testimonial4 {
+    display: flex;
+
+}
+
+.sectionheader4 {
+    font-size: 56px;
+    color: white;
+    text-align: center;
+}
+
+.testimonialright {
+    display: flex;
+    flex-direction: column;
 }
