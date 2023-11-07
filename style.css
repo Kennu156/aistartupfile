@@ -150,6 +150,7 @@ body  {
     text-decoration: none;
     display: inline-block;
     border-radius: 50px;
+    
 }
 
 .testimonial2 {
@@ -166,6 +167,7 @@ body  {
 
 .testimonial4 {
     display: flex;
+    justify-content: center;
 
 }
 
@@ -178,4 +180,18 @@ body  {
 .testimonialright {
     display: flex;
     flex-direction: column;
+}
+
+.sectionheader5 {
+    text-align: center;
+    font-size: 32px;
+}
+
+.button3 {
+    display: flex;
+    justify-content: center;
+}
+
+.titlecopy {
+    font-size: 80px;
 }
