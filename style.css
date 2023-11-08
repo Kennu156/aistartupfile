@@ -6,9 +6,18 @@ body  {
 
 .navigation {
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
+    flex-flow: row wrap;
+    align-items: stretch;
     
+    
+}
+
+.AIstartup {
+    font-size: 29px;
+    background: -webkit-linear-gradient(90deg, rgba(78,75,228,1) 24%, rgba(232,98,254,1) 74%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .sectionheader {
@@ -90,6 +99,7 @@ body  {
     border-radius: 33px;
     flex-direction: column;
     padding: 50px;
+    margin-bottom: 80px;
 }
 
 
@@ -97,17 +107,53 @@ body  {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 
 .plan2 {
+    
     background-color: #181924;
     border-radius: 33px;
     padding-left: 75px;
     padding-right: 75px;
     padding-top: 48px;
     padding-bottom: 48px;
-    justify-content: center;
+    text-align: center;
+    
+}
+
+.info {
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    margin-right: 150px;
+    text-align: left;
+    justify-content: space-around;
+    flex-direction: row;
+    margin-top: 150px;
+    
+}
+
+
+.info2 {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-left: 150px;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 200px;
+    text-align: left;  
+}
+
+
+.features {
+    font-size: 23px;
+    background: -webkit-linear-gradient(90deg, rgba(78,75,228,1) 24%, rgba(232,98,254,1) 74%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: left;
+    
 }
 
 .benefits {
@@ -153,16 +199,32 @@ body  {
     
 }
 
+span {
+    background: -webkit-linear-gradient(90deg, rgba(78,75,228,1) 24%, rgba(232,98,254,1) 74%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+}
+
 .testimonial2 {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
+
 
 .Testimonial3 {
     background-color: #181924;
     border-radius: 30px;
     padding: 32px;
+}
+
+.VP {
+    font-size: 20px;
+}
+
+.author {
+    margin-top: 50px;
 }
 
 .testimonial4 {
@@ -194,4 +256,28 @@ body  {
 
 .titlecopy {
     font-size: 80px;
+    
 }
+
+.AIbutton {
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    -webkit-text-fill-color: white;
+    padding-right: 60px;
+}  
+
+.column3 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #181924;
+    border-radius: 33px;
+    padding: 50px;
+    margin-left: 205px;
+    margin-right: 205px;
+
+}
+
