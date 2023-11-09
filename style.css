@@ -7,8 +7,9 @@ body  {
 .navigation {
     display: flex;
     justify-content: space-between;
-    flex-flow: row wrap;
-    align-items: stretch;
+    flex-direction: row;
+    padding-left: 100px;
+    padding-right: 100px;
     
     
 }
@@ -18,6 +19,7 @@ body  {
     background: -webkit-linear-gradient(90deg, rgba(78,75,228,1) 24%, rgba(232,98,254,1) 74%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    
 }
 
 .sectionheader {
@@ -66,6 +68,15 @@ body  {
     
 }
 
+.tailoring {
+    display: flex;
+    flex-direction: row;
+}
+
+.tailored {
+    margin-left: 20px;
+}
+
 .benefitsbox2 {
     font-size: 24px;
 }
@@ -90,7 +101,8 @@ body  {
 .proactive {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: center;
+    
 }
 
 .column {
@@ -98,9 +110,14 @@ body  {
     background-color: #181924;
     border-radius: 33px;
     flex-direction: column;
-    padding: 50px;
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-bottom: 60px;
+    padding-top: 25px;
     margin-bottom: 80px;
+    margin-right: 48px;
 }
+
 
 
 .plans {
@@ -108,6 +125,7 @@ body  {
     flex-direction: row;
     justify-content: center;
     justify-content: space-evenly;
+    margin-bottom: 240px;
 }
 
 .plan2 {
@@ -200,6 +218,7 @@ body  {
 }
 
 span {
+    
     background: -webkit-linear-gradient(90deg, rgba(78,75,228,1) 24%, rgba(232,98,254,1) 74%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -230,6 +249,9 @@ span {
 .testimonial4 {
     display: flex;
     justify-content: center;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 240px;
 
 }
 
@@ -255,7 +277,7 @@ span {
 }
 
 .titlecopy {
-    font-size: 80px;
+    font-size: 56px;
     
 }
 
@@ -276,8 +298,45 @@ span {
     background-color: #181924;
     border-radius: 33px;
     padding: 50px;
-    margin-left: 205px;
-    margin-right: 205px;
+    margin-left: 530px;
+    margin-right: 580px;
 
 }
 
+.column4 {
+    margin-top: 120px;
+}
+
+.proactive2 {
+    font-size: 42px;
+}
+
+.proactive3 {
+    font-size: 22px;
+}
+
+.column5 {
+    margin-top: 40px;
+}
+
+.column6 {
+    margin-top: 24px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding-top: 200px;
+    padding-left: 100px;
+    padding-right: 200px;
+}
+
+.author2 {
+    display: flex;
+    flex-direction: row;
+}
+
+.stars {
+
+}
