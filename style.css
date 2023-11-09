@@ -7,7 +7,6 @@ body  {
 .navigation {
     display: flex;
     justify-content: space-between;
-    flex-direction: row;
     padding-left: 100px;
     padding-right: 100px;
     
@@ -19,6 +18,7 @@ body  {
     background: -webkit-linear-gradient(90deg, rgba(78,75,228,1) 24%, rgba(232,98,254,1) 74%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    
     
 }
 
@@ -332,11 +332,17 @@ span {
     padding-right: 200px;
 }
 
-.author2 {
-    display: flex;
-    flex-direction: row;
+
+.img2 {
+    float: left;
+    margin-right: 1rem;
 }
 
-.stars {
+.img3 {
+    float: right;
+    margin-left: 1rem;
+}
 
+.author {
+    padding-top: 10px;
 }
